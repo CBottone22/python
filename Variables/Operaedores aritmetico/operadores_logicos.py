@@ -1,18 +1,20 @@
 #AND
 
 Resultado = True & True #Devolver True
-Resultado = False & True #Devolver Falso
-Resultado = True & False #Devolver Falso
-Resultado = False & False #Devolver Falso
+Resultado2 = False & True #Devolver Falso
+Resultado3 = True & False #Devolver Falso
+Resultado4 = False & False #Devolver Falso
 
 #OR
 
-Resultado = True & True #Devolver True
-Resultado = False & True #Devolver True
-Resultado = True & False #Devolver True
-Resultado = False & False #Devolver Falso
+Resultado5 = True | True #Devolver True
+Resultado6 = False | True #Devolver True
+Resultado7 = True | False #Devolver True
+Resultado8 = False | False #Devolver Falso
 
 #NOT
 
-Resultado = not True #Devolver Falso
-Resultado = not False #Devolver True
+Resultado9 = not True #Devolver Falso
+Resultado10 = not False #Devolver True
+
+print(Resultado10)

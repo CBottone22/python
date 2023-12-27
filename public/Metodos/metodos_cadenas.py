@@ -1,4 +1,4 @@
-cadena1 = "holaGordaComoEstas"
+cadena1 = "hola gorda como estas"
 cadena2 = "Bienvenida Gorda"
 
 #convcierte a mayusculas
@@ -28,4 +28,16 @@ contar_coincidencias = cadena1.count("p")
 #contamos cuantos caracteres tiene una cadena
 contar_caracteres = len(cadena1)
 
-print(contar_caracteres)
+#verificamos si una cadena empieza con otra cadena dada, si es asi devuelve True
+empieza_con = cadena1.startswith("h")
+
+#verificamos si una cadena termina con otra cadena dada, si es asi devuelve True
+termina_con = cadena1.endswith("s")
+
+#si el valor 1 se encuentra en la cadena original, reemplaza el valor 1 de la misma x el valor 2
+cadena_nueva = cadena1.replace("la", "lis")
+
+#nos va a separar cadenas con una cadena que le pasemos
+cadena_separada = cadena1.split(" ")
+
+print(cadena_separada[3])

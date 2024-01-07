@@ -1,3 +1,7 @@
-import funciones_buenas.saludar
+#si el modulo estuviera en una carpeta en la misma ruta se importa asi
+#import views.saludar as m_saludar
 
-print(funciones_buenas.saludar.saludar("Caro"))
+
+import sys
+
+print(sys)

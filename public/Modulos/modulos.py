@@ -2,7 +2,7 @@
 #import modulo_saludar as m_saludar 
 
 #desde ese modulo importamos dos funciones y les cambiamos el nombre
-from modulo_saludar import saludar as saludar_normal,saludar_motivando as saludar_como_la_mejor
+from public.Modulos.modulo_saludar import saludar as saludar_normal,saludar_motivando as saludar_como_la_mejor
 import modulo_saludar as m_saludar
 
 #creamos las variables con los saludos
@@ -20,4 +20,4 @@ print (saludar_motivando)
 print(__name__)
 
 #accedemos al nombre del modulo llamado
-#print(m_saludar.__name__)
+print(m_saludar.__name__)

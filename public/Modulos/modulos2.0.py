@@ -4,4 +4,4 @@
 
 import sys
 
-print(sys)
+print(sys.path)
